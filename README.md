@@ -13,7 +13,7 @@ TNRをした日本の野良猫は、耳をV字にカットされます。その�
 保護猫活動を少しでも効率化し、現場で働く方々や猫たちの助けになることを目指しております。
 
 ## 技術スタック
-- Python 3.x
+![Python 3.x](https://img.sheilds.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 - PyTorch
 - torchvision
 - PIL (画像処理)
