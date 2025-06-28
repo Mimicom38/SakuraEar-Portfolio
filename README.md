@@ -12,14 +12,13 @@ TNRをした日本の野良猫は、耳をV字にカットされます。その�
 
 保護猫活動を少しでも効率化し、現場で働く方々や猫たちの助けになることを目指しております。
 
-## 技術スタック
-![Python 3.x](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) 
-- PyTorch
+## 使用している主な技術
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)   
+![Static Badge](https://img.shields.io/badge/-PyTorch-EE4C2C)
 - torchvision
 - PIL (画像処理)
 - Google Colab（実行環境）
 - GitHub（ソース管理）
-※ 軽量なCNNモデルを自作し、224×224の画像を入力として分類を行います。
 
 ## ファイル構成
 
@@ -30,6 +29,7 @@ TNRをした日本の野良猫は、耳をV字にカットされます。その�
 https://contest.doubutukikin.or.jp/gallery/sakura/20240715_11956.html
 「iStock」→https://www.istockphoto.com/jp
 
+##
 
 ## Colabリンク
 https://colab.research.google.com/drive/1bniTDI0aE2VLmnnrV2flWh-2cqd7z_B5?usp=sharing
