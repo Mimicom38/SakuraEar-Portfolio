@@ -33,6 +33,6 @@ https://contest.doubutukikin.or.jp/gallery/sakura/20240715_11956.html
 [iStock]→https://www.istockphoto.com/jp
 
 
-##GoogleColabリンク
+## GoogleColabリンク
 
 https://colab.research.google.com/drive/1bniTDI0aE2VLmnnrV2flWh-2cqd7z_B5?hl=ja#scrollTo=8tibzIJUH4ZM
