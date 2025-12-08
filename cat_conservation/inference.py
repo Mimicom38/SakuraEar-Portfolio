@@ -25,16 +25,16 @@ std = (0.229, 0.224, 0.225)
 infer_transform = transforms.Compose([
   transforms.Resize(256),
   transforms.CenterCrop(224),
-  transforms.ColorJitter(
-    brightness=0.2,
-    contrast=0.2
-  ),
+  # transforms.ColorJitter(
+  #   brightness=0.2,
+  #   contrast=0.2
+  # ),
   transforms.ToTensor(),
   transforms.Normalize(mean, std)
 ])
 
 #画像の読み込みと前処理
-image_path = "inference_test/testcat.jpg"
+image_path = "inference_test/sakuranot.jpg"
 image = Image.open(image_path).convert("RGB")
 #バッチ次元を追加
 tensor = infer_transform(image).unsqueeze(0).to(device)
