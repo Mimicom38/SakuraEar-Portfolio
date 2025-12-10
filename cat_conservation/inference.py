@@ -34,7 +34,7 @@ infer_transform = transforms.Compose([
 ])
 
 #画像の読み込みと前処理
-image_path = "inference_test/sakuranot.jpg"
+image_path = "inference_test/nosakura.jpg"
 image = Image.open(image_path).convert("RGB")
 #バッチ次元を追加
 tensor = infer_transform(image).unsqueeze(0).to(device)

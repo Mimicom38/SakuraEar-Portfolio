@@ -14,11 +14,11 @@ data_transform = {
   'train': transforms.Compose([
     transforms.Resize((256, 256)), 
     transforms.CenterCrop(image_size),
-    #transforms.RandomHorizontalFlip(p=0.5), #p=0.5を追加
-    #transforms.RandomRotation(5), #回転しすぎない
-    #transforms.ColorJitter(
-     #brightness=0.05, contrast=0.05 #0.5→0.1から変更
-   # ),
+  #   transforms.RandomHorizontalFlip(p=0.5), #p=0.5を追加
+  #   transforms.RandomRotation(5), #回転しすぎない
+  #   transforms.ColorJitter(
+  #    brightness=0.05, contrast=0.05 #0.5→0.1から変更
+  #  ),
     transforms.ToTensor(),
     transforms.Normalize(mean, std),
   ]),
