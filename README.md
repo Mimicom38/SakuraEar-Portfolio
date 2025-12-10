@@ -1,4 +1,4 @@
-# SakuraSensor-Portfolio
+# SakuraEar-Portfolio
 
 # 概要（Overview）
 本プロジェクトは、耳の形状（さくら耳）によってTNR(不妊去勢手術により野良猫の繁殖を抑え、数を減らす活動）済みか否かを判別する画像分類モデルです。  
