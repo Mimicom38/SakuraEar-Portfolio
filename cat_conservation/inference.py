@@ -49,7 +49,7 @@ with torch.no_grad():
 
 # 4. 結果表示
 class_names = ["notsakura", "sakura"]
-print(f"この猫はたぶん{class_names[predicted.item()]} です")
+print(f"この猫はたぶん{class_names[predicted.item()]} ですかな？")
 
 print("raw logits:", outputs)
 print("probs:", probs)
