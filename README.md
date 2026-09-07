@@ -42,6 +42,7 @@ canva
 │   ├── sakuramimi.jpeg
 │   └── testcat.jpg
 ├── inference.py #推論
+├── livepredict.py #リアルタイム判定
 ├── model.pth #学習済みモデルの保存
 ├── model.py #モデル構築
 ├── notsakura #未手術の猫画像
